@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.appContainer{
+    background-color: #9DB2BF;
+    padding: 50px 20px;
+    width: 300px;
+}
+.notCompleted{
+    font-size: 5rem;
+}
+
+.completed{
+    font-size: 3rem;
+}
+.btn{
+    padding: 7px;
+    border: none;
+    background-color: #27374D;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #fff;
+    margin: 10px;
+}
+
+.toggleButton > *{
+    margin: 5px;
+}
